@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/bg2.png');
+    background-size: cover;
+}
+
+.main-header nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 180px;
+    height: 100px;
+    padding-left: 30px;
+}
+
+.main-header nav .navbar-nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-header nav .navbar-nav a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.main-header nav .navbar-nav button {
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(to right, #649bff,#0070fa,#649bff);
+    border-radius: 10px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .right-sec {
+    margin-top: 150px;
+    padding-right: 50px;
+}
+
+main .left-sec {
+    padding-left: 70px;
+}
+
+main .left-sec h3 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #242424;
+    margin-top: 250px;
+}
+
+main .left-sec h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 12px 0;
+}
+
+main .left-sec p {
+    margin-bottom: 20px;
+}
+
+main .left-sec button {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(to right, #649bff,#0070fa,#649bff);
+    border-radius: 10px;
+}
+
+.card-body {
+    overflow: hidden;
+}
+
+.card-body img {
+    transition: 0.5s all ease;
+}
+
+.card-body img:hover {
+    transform: scale(1.15);
+}
+
+.models {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.models .car-left {
+    position: relative;
+}
+
+.models .model-text {
+    margin-left: 50px;
+}
+
+.card-footer i {
+    padding: 0 25px;
+    font-size: 2em;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+footer ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+    color: #bdbcbc;
+}
+
+footer ul li a i{
+    font-size: 1.3em;
+}
