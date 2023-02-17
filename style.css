@@ -1,3 +1,26 @@
+@media screen and (max-width:991px) {
+    .col-sm-12 {
+        width: 45vw;
+        margin: 20px auto;
+    }  
+
+}
+
+@media screen and (max-width:767px) {
+    .col-md-12 {
+        width: 100vw;
+    }
+
+    .card {
+        margin: 10px;
+    }
+
+    /* .mainPic {
+        width: 100vw;
+        height: 50vh;
+    } */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -115,8 +138,8 @@ main .left-sec button {
     position: relative;
 }
 
-.models .model-text {
-    margin-left: 50px;
+.models .text-right {
+    margin-left: 30px;
 }
 
 .card-footer i {
